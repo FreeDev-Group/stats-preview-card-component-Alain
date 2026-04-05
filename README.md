@@ -1,112 +1,93 @@
-# Purpose of the `develop` Branch  
+# Frontend Mentor - Stats preview card component solution
 
-This is where all development happens before going to `main`.
-
-You will:
-- Work on your tasks
-- Practice Git workflow
-- Collaborate as a team
-
-Do NOT push directly to `main`
-
----
-
-## About This Challenge  
-
-This project is based on the **Frontend Mentor – Stats Preview Card Component challenge**.
-https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
-
-### Objective  
-
-Build a stats preview card that matches the design as closely as possible.
-
----
-
-### Challenge Files  
-
--Take time to understand these before coding.
-
----
-
-### Commit : Best Practices
-When to commit ?
-
--After a small task
-
--After a meaningful change
-
-Commit format 
-```
-feat: add HTML structure  
-style: add CSS styling  
-fix: correct layout issue  
-docs: update README  
-setup: project setup 
-```
-### Pull Request (PR)
-Open a Pull Request (PR)
-Target: develop branch (never main), 
-you will have the explanation of this image just below
-
-<img width="1356" height="580" alt="image" src="https://github.com/user-attachments/assets/33d02ca0-e868-4ed8-9c09-b66815034f11" />
+This is my solution to the Stats preview card component challenge on Frontend Mentor.  
+The goal was to build a responsive card layout that works seamlessly on both mobile and desktop.
 
 
-Add a clear description of what you did
+## Table of contents
 
-Wait for review and apply corrections if needed
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-A PR is used to:
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout depending on their screen size
+
+Challenge: https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
 
 
--Review your work
+### Screenshot
 
--Improve your code
+![Project Screenshot](./Screenshot5.jpg)
 
--Collaborate
 
-## Branching Strategy (Important)  
-What if you need to start a second task before the first is merged?
+### Links
 
-Start from your previous branch, that is to say the new branch will be based on the previous.
+- Live Site: https://your-live-site-url.com  
+- Git Repository: https://github.com/FreeDev-Group/stats-preview-card-component-Alain  
 
-exemple :
-```
-git checkout feature/salomon-html-structure
-git checkout -b feature/salomon-css-style
-```
 
-Now you can build on your HTML.
+## My process
 
-Important: When you open your PR, still target develop, not the HTML branch.
+### Built with
 
-<img width="1356" height="580" alt="image" src="https://github.com/user-attachments/assets/33d02ca0-e868-4ed8-9c09-b66815034f11" />
+- Semantic HTML5  
+- CSS (Flexbox)  
+- Mobile-first workflow  
 
-``Legend:`` As you can see in this image, when you make a Pull Request, your branch will appear where it is framed in orange. You will click on the small triangular button in the green box, then you will see the list of available branches, choose the develop branch as indicated by the blue arrow.
 
-``IMPORTANT :`` Even if your branch is based on another, always merge into develop. This keeps the project clean and avoids chained dependencies.
+### What I learned
 
-## About "agent" and "Claude" Files
-In this challenge, you may see references to tools like:
+This project helped me strengthen:
 
-``agent``, ``Claude``
+- HTML structure and semantic markup  
+- Responsive design using a mobile-first approach  
+- Flexbox layout techniques  
+- Creating image overlays using linear-gradient  
 
-These are AI assistants that help generate ideas or code.
+Example:
 
-``Important:`` Do NOT copy blindly
+background: linear-gradient(hsla(277, 64%, 61%, 0.6), hsla(277, 64%, 61%, 0.6)), url('./images/image-header-desktop.jpg');
 
-Always understand what is generated
-Use them as helpers, not replacements
 
-## Learning Objective
-This challenge is not only about building UI.
+### Continued development
 
-You are learning:
+I plan to:
 
--How to work step by step
--How to use Git correctly
--How to think like a developer
+- Improve design precision (pixel-perfect layouts)  
+- Explore CSS Grid more deeply  
+- Write cleaner and more maintainable CSS  
 
-### Final Note
-You are allowed to make mistakes.
-This is part of the process.
-We are here to learn, not to be perfect.
+
+### AI Collaboration
+
+I used ChatGPT to:
+
+- Debug layout issues  
+- Understand Git and SSH workflow  
+- Improve responsiveness and structure  
+
+
+## Author
+
+- Frontend Mentor Profile: https://www.frontendmentor.io/profile/alainbahanep  
+- GitHub Profile: https://github.com/FreeDev-Group  
+
+
+## Acknowledgments
+
+Special thanks to **Salomon Mwilo** and the **FreeDev Group** for their support and guidance.
