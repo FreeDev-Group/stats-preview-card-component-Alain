@@ -37,7 +37,7 @@ Challenge: https://www.frontendmentor.io/challenges/stats-preview-card-component
 
 ### Links
 
-- Live Site: https://your-live-site-url.com  
+- Live Site:  https://freedev-group.github.io/stats-preview-card-component-Alain/
 - Git Repository: https://github.com/FreeDev-Group/stats-preview-card-component-Alain  
 
 
